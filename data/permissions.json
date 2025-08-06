@@ -1,0 +1,512 @@
+{
+  "pages": {
+    "enhanced-dashboard": {
+      "name": "Ana Dashboard",
+      "permissions": {
+        "Yönetici": [
+          "view",
+          "edit",
+          "delete",
+          "export"
+        ],
+        "AR-GE": [
+          "view"
+        ],
+        "Muhasebe": [
+          "view"
+        ],
+        "Dikim": [
+          "view"
+        ],
+        "Planlama": [
+          "view"
+        ],
+        "Proje": [
+          "view"
+        ]
+      }
+    },
+    "numune-talep": {
+      "name": "Numune Talep",
+      "permissions": {
+        "Yönetici": [
+          "view",
+          "create",
+          "edit",
+          "delete"
+        ],
+        "AR-GE": [
+          "view",
+          "delete",
+          "edit"
+        ],
+        "Muhasebe": [
+          "view"
+        ],
+        "Proje": [
+          "view",
+          "create"
+        ],
+        "Planlama": [
+          "view"
+        ],
+        "Dikim": []
+      }
+    },
+    "numune-listesi": {
+      "name": "Numune Listesi",
+      "permissions": {
+        "Yönetici": [
+          "view",
+          "edit",
+          "delete",
+          "export"
+        ],
+        "AR-GE": [
+          "view",
+          "create",
+          "edit",
+          "delete"
+        ],
+        "Proje": [
+          "view"
+        ],
+        "Muhasebe": [
+          "view"
+        ],
+        "Dikim": [
+          "view"
+        ],
+        "Planlama": [
+          "view"
+        ]
+      }
+    },
+    "numune-ucretleri": {
+      "name": "Numune Ücretleri",
+      "permissions": {
+        "Yönetici": [
+          "view",
+          "edit",
+          "delete"
+        ],
+        "AR-GE": [
+          "create"
+        ],
+        "Muhasebe": [
+          "view",
+          "edit"
+        ],
+        "Proje": [
+          "view"
+        ],
+        "Planlama": [],
+        "Dikim": []
+      }
+    },
+    "siparis-girisi": {
+      "name": "Sipariş Girişi",
+      "permissions": {
+        "Yönetici": [
+          "view",
+          "create",
+          "edit",
+          "delete"
+        ],
+        "AR-GE": [
+          "view"
+        ],
+        "Proje": [
+          "view",
+          "create",
+          "edit"
+        ],
+        "Planlama": [
+          "view",
+          "create"
+        ],
+        "Muhasebe": [
+          "view"
+        ],
+        "Dikim": []
+      }
+    },
+    "siparis-listesi": {
+      "name": "Sipariş Listesi",
+      "permissions": {
+        "Yönetici": [
+          "view",
+          "edit",
+          "delete"
+        ],
+        "AR-GE": [
+          "view"
+        ],
+        "Muhasebe": [
+          "view"
+        ],
+        "Proje": [
+          "view",
+          "edit"
+        ],
+        "Planlama": [
+          "view"
+        ],
+        "Dikim": [
+          "view"
+        ]
+      }
+    },
+    "gorev-listesi": {
+      "name": "Görev Listesi",
+      "permissions": {
+        "Yönetici": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "assign"
+        ],
+        "AR-GE": [
+          "view"
+        ],
+        "Proje": [
+          "view",
+          "create",
+          "edit"
+        ],
+        "Planlama": [
+          "view",
+          "create"
+        ],
+        "Muhasebe": [
+          "view"
+        ],
+        "Dikim": [
+          "view"
+        ]
+      }
+    },
+    "stok-listesi": {
+      "name": "Stok Listesi",
+      "permissions": {
+        "Yönetici": [
+          "view",
+          "edit",
+          "delete"
+        ],
+        "AR-GE": [],
+        "Muhasebe": [
+          "view"
+        ],
+        "Proje": [
+          "view"
+        ],
+        "Planlama": [
+          "view",
+          "edit"
+        ],
+        "Dikim": [
+          "view"
+        ]
+      }
+    },
+    "musteriler": {
+      "name": "Müşteriler",
+      "permissions": {
+        "Yönetici": [
+          "view",
+          "create",
+          "edit",
+          "delete"
+        ],
+        "AR-GE": [],
+        "Proje": [
+          "view",
+          "edit"
+        ],
+        "Muhasebe": [
+          "view"
+        ],
+        "Planlama": [
+          "view"
+        ],
+        "Dikim": []
+      }
+    },
+    "tedarikciler": {
+      "name": "Tedarikçiler",
+      "permissions": {
+        "Yönetici": [
+          "view",
+          "create",
+          "edit",
+          "delete"
+        ],
+        "AR-GE": [
+          "view"
+        ],
+        "Muhasebe": [
+          "view",
+          "edit"
+        ],
+        "Proje": [
+          "view"
+        ],
+        "Planlama": [
+          "view"
+        ],
+        "Dikim": []
+      }
+    },
+    "satinalma": {
+      "name": "Satın Alma",
+      "permissions": {
+        "Yönetici": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "approve"
+        ],
+        "AR-GE": [
+          "view"
+        ],
+        "Muhasebe": [
+          "view",
+          "approve"
+        ],
+        "Proje": [
+          "view"
+        ],
+        "Planlama": [
+          "view",
+          "create",
+          "edit"
+        ],
+        "Dikim": [
+          "view"
+        ]
+      }
+    },
+    "butce-takip": {
+      "name": "Bütçe Takip",
+      "permissions": {
+        "Yönetici": [
+          "view",
+          "edit"
+        ],
+        "Muhasebe": [
+          "view",
+          "edit"
+        ],
+        "AR-GE": [],
+        "Proje": [
+          "view"
+        ],
+        "Planlama": [
+          "view"
+        ],
+        "Dikim": []
+      }
+    },
+    "onay-yonetimi": {
+      "name": "Onay Yönetimi",
+      "permissions": {
+        "Yönetici": [
+          "view",
+          "approve",
+          "reject",
+          "delegate"
+        ],
+        "AR-GE": [
+          "approve",
+          "view"
+        ],
+        "Muhasebe": [
+          "view",
+          "approve",
+          "reject"
+        ],
+        "Proje": [
+          "view",
+          "approve"
+        ],
+        "Planlama": [
+          "view"
+        ],
+        "Dikim": []
+      }
+    },
+    "analitik": {
+      "name": "Analitik",
+      "permissions": {
+        "Yönetici": [
+          "view",
+          "export"
+        ],
+        "AR-GE": [
+          "view",
+          "create",
+          "delete",
+          "edit"
+        ],
+        "Muhasebe": [
+          "view"
+        ],
+        "Proje": [
+          "view"
+        ],
+        "Planlama": [
+          "view"
+        ],
+        "Dikim": []
+      }
+    }
+  },
+  "features": {
+    "workflow_management": {
+      "name": "İş Akışı Yönetimi",
+      "permissions": {
+        "Yönetici": [
+          "create",
+          "edit",
+          "delete",
+          "start",
+          "stop"
+        ],
+        "Proje": [
+          "create",
+          "start"
+        ],
+        "AR-GE": [
+          "start"
+        ],
+        "Planlama": [
+          "start"
+        ],
+        "Muhasebe": [],
+        "Dikim": []
+      }
+    },
+    "financial_operations": {
+      "name": "Mali İşlemler",
+      "permissions": {
+        "Yönetici": [
+          "view",
+          "edit",
+          "approve",
+          "export"
+        ],
+        "Muhasebe": [
+          "view",
+          "edit",
+          "approve"
+        ],
+        "Proje": [
+          "view"
+        ],
+        "AR-GE": [],
+        "Planlama": [],
+        "Dikim": []
+      }
+    },
+    "user_management": {
+      "name": "Kullanıcı Yönetimi",
+      "permissions": {
+        "Yönetici": [
+          "create",
+          "edit",
+          "delete",
+          "assign_groups"
+        ],
+        "AR-GE": [],
+        "Muhasebe": [],
+        "Dikim": [],
+        "Planlama": [],
+        "Proje": []
+      }
+    }
+  },
+  "fields": {
+    "financial": {
+      "name": "Parasal Alanlar",
+      "description": "Toplam değer, fiyat, maliyet gibi finansal bilgiler",
+      "permissions": {
+        "Yönetici": [
+          "view",
+          "edit"
+        ],
+        "Muhasebe": [
+          "view",
+          "edit"
+        ],
+        "AR-GE": [],
+        "Proje": [
+          "view"
+        ],
+        "Planlama": [],
+        "Dikim": []
+      }
+    },
+    "sensitive_data": {
+      "name": "Hassas Veriler",
+      "description": "Maliyet, kar marjı, tedarikçi fiyatları",
+      "permissions": {
+        "Yönetici": [
+          "view",
+          "edit"
+        ],
+        "Muhasebe": [
+          "view",
+          "edit"
+        ],
+        "AR-GE": [],
+        "Proje": [],
+        "Planlama": [],
+        "Dikim": []
+      }
+    },
+    "numune_request_special": {
+      "name": "Numune Talep Özel Alanları",
+      "description": "Numune talep formundaki gizli notlar, özel talimatlar ve iç bilgiler",
+      "permissions": {
+        "Yönetici": [
+          "view",
+          "edit"
+        ],
+        "Muhasebe": [
+          "view"
+        ],
+        "AR-GE": [],
+        "Proje": [
+          "view"
+        ],
+        "Planlama": [],
+        "Dikim": []
+      }
+    },
+    "customer_info": {
+      "name": "Müşteri Bilgileri",
+      "description": "Müşteri iletişim bilgileri ve özel notlar",
+      "permissions": {
+        "Yönetici": [
+          "view",
+          "edit"
+        ],
+        "AR-GE": [],
+        "Proje": [
+          "view",
+          "edit"
+        ],
+        "Muhasebe": [
+          "view"
+        ],
+        "Planlama": [
+          "view"
+        ],
+        "Dikim": []
+      }
+    }
+  }
+}

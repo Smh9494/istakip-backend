@@ -1,0 +1,96 @@
+[
+  {
+    "id": "group_1",
+    "name": "Yönetici",
+    "description": "Sistem yöneticisi - Tüm yetkilere sahip",
+    "permissions": [
+      "all_access",
+      "user_management",
+      "permission_management",
+      "system_settings",
+      "reports_full",
+      "data_export",
+      "system_backup"
+    ],
+    "color": "#ef4444",
+    "icon": "👑"
+  },
+  {
+    "id": "group_2",
+    "name": "AR-GE",
+    "description": "Araştırma ve Geliştirme ekibi",
+    "permissions": [
+      "numune_create",
+      "numune_edit",
+      "numune_view",
+      "numune_approve",
+      "product_development",
+      "technical_reports",
+      "workflow_start"
+    ],
+    "color": "#3b82f6",
+    "icon": "🔬"
+  },
+  {
+    "id": "group_3",
+    "name": "Muhasebe",
+    "description": "Mali işler ve muhasebe ekibi",
+    "permissions": [
+      "financial_view",
+      "budget_control",
+      "cost_analysis",
+      "payment_approve",
+      "financial_reports",
+      "supplier_payments",
+      "invoice_management"
+    ],
+    "color": "#10b981",
+    "icon": "💰"
+  },
+  {
+    "id": "group_4",
+    "name": "Dikim",
+    "description": "Üretim ve dikim ekibi",
+    "permissions": [
+      "production_view",
+      "task_update",
+      "quality_control",
+      "production_reports",
+      "inventory_update",
+      "work_orders"
+    ],
+    "color": "#f59e0b",
+    "icon": "✂️"
+  },
+  {
+    "id": "group_5",
+    "name": "Planlama",
+    "description": "Üretim planlama ve lojistik ekibi",
+    "permissions": [
+      "production_planning",
+      "schedule_management",
+      "resource_allocation",
+      "delivery_planning",
+      "inventory_management",
+      "supplier_coordination"
+    ],
+    "color": "#8b5cf6",
+    "icon": "📋"
+  },
+  {
+    "id": "group_6",
+    "name": "Proje",
+    "description": "Proje yönetimi ekibi",
+    "permissions": [
+      "project_create",
+      "project_edit",
+      "project_view",
+      "task_assign",
+      "milestone_tracking",
+      "client_communication",
+      "project_reports"
+    ],
+    "color": "#06b6d4",
+    "icon": "📊"
+  }
+]

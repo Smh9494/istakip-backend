@@ -1,0 +1,101 @@
+[
+  {
+    "id": "perf001",
+    "tedarikcıId": "ted001",
+    "tedarikcıAdi": "ABC Metal A.Ş.",
+    "performansMetrikleri": {
+      "teslimatPerformansi": {
+        "zamanindaTeslimat": 85,
+        "gecikmeOrtalamasi": 2.5,
+        "toplamSiparis": 45,
+        "zamanindaTeslimSayisi": 38
+      },
+      "kalitePerformansi": {
+        "kalitePuani": 92,
+        "redOrani": 3.2,
+        "sikayet Sayisi": 2,
+        "iadeSayisi": 1
+      },
+      "fiyatPerformansi": {
+        "fiyatKarsilastirmaPuani": 78,
+        "pazarOrtalamasi": 100,
+        "fiyatDegisimOrani": 5.2
+      },
+      "iletisimPerformansi": {
+        "yanitSuresi": 24,
+        "iletisimKalitesi": 88,
+        "proaktiflik": 75
+      }
+    },
+    "genel Puan": 85.7,
+    "kategori": "A",
+    "son Degerlendirme": "2025-08-01",
+    "notlar": "Güvenilir tedarikçi, fiyat konusunda iyileştirme gerekli"
+  },
+  {
+    "id": "perf002",
+    "tedarikcıId": "ted002",
+    "tedarikcıAdi": "XYZ Plastik Ltd.",
+    "performansMetrikleri": {
+      "teslimatPerformansi": {
+        "zamanindaTeslimat": 72,
+        "gecikmeOrtalamasi": 4.8,
+        "toplamSiparis": 28,
+        "zamanindaTeslimSayisi": 20
+      },
+      "kalitePerformansi": {
+        "kalitePuani": 95,
+        "redOrani": 1.5,
+        "sikayetSayisi": 0,
+        "iadeSayisi": 0
+      },
+      "fiyatPerformansi": {
+        "fiyatKarsilastirmaPuani": 92,
+        "pazarOrtalamasi": 100,
+        "fiyatDegisimOrani": -2.1
+      },
+      "iletisimPerformansi": {
+        "yanitSuresi": 48,
+        "iletisimKalitesi": 65,
+        "proaktiflik": 45
+      }
+    },
+    "genelPuan": 73.5,
+    "kategori": "B",
+    "sonDegerlendirme": "2025-08-01",
+    "notlar": "Kalite yüksek ancak teslimat ve iletişimde sorunlar"
+  },
+  {
+    "id": "perf003",
+    "tedarikcıId": "ted003",
+    "tedarikcıAdi": "DEF Elektronik San.",
+    "performansMetrikleri": {
+      "teslimatPerformansi": {
+        "zamanindaTeslimat": 96,
+        "gecikmeOrtalamasi": 0.8,
+        "toplamSiparis": 62,
+        "zamanindaTeslimSayisi": 59
+      },
+      "kalitePerformansi": {
+        "kalitePuani": 98,
+        "redOrani": 0.5,
+        "sikayetSayisi": 0,
+        "iadeSayisi": 0
+      },
+      "fiyatPerformansi": {
+        "fiyatKarsilastirmaPuani": 85,
+        "pazarOrtalamasi": 100,
+        "fiyatDegisimOrani": 1.2
+      },
+      "iletisimPerformansi": {
+        "yanitSuresi": 8,
+        "iletisimKalitesi": 95,
+        "proaktiflik": 90
+      }
+    },
+    "genelPuan": 94.2,
+    "kategori": "A+",
+    "sonDegerlendirme": "2025-08-01",
+    "notlar": "Mükemmel performans, stratejik partner"
+  }
+]

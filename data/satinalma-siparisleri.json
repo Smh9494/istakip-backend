@@ -1,0 +1,96 @@
+[
+  {
+    "siparisNo": "ELS 202508",
+    "tedarikci": "Elasteks",
+    "siparisTarihi": "2025-08-03",
+    "teslimTarihi": "2025-08-08",
+    "kategori": "Siparişler",
+    "durum": "İptal Edildi",
+    "aciklama": "wefewfewfewfewf",
+    "paraBirimi": "$",
+    "urunler": [
+      {
+        "urunAdi": "44/44 3çkm",
+        "miktar": "5",
+        "birim": "kg",
+        "birimFiyat": "7",
+        "aciklama": "numune için"
+      }
+    ],
+    "toplamTutar": 35,
+    "kayitTarihi": "2025-08-03T18:59:16.651Z",
+    "id": "1754247556658",
+    "olusturmaTarihi": "03.08.2025 21:59:16",
+    "guncellemeTarihi": "03.08.2025 23:39:13"
+  },
+  {
+    "siparisNo": "ELS 202508-2",
+    "tedarikci": "murat Ruşen",
+    "siparisTarihi": "2025-08-03",
+    "teslimTarihi": "2025-08-08",
+    "kategori": "Siparişler",
+    "durum": "Beklemede",
+    "aciklama": "",
+    "paraBirimi": "₺",
+    "urunler": [
+      {
+        "urunAdi": " ayar halka",
+        "miktar": "5000",
+        "birim": "adet",
+        "birimFiyat": "100",
+        "aciklama": "üretim için"
+      }
+    ],
+    "toplamTutar": 500000,
+    "kayitTarihi": "2025-08-03T20:37:57.029Z",
+    "id": "1754253477045",
+    "olusturmaTarihi": "03.08.2025 23:37:57"
+  },
+  {
+    "siparisNo": "433434",
+    "tedarikci": "Tekstil A.S.",
+    "siparisTarihi": "2025-08-03",
+    "teslimTarihi": "2025-09-06",
+    "kategori": "Siparişler",
+    "durum": "Beklemede",
+    "aciklama": "dd3",
+    "paraBirimi": "₺",
+    "urunler": [
+      {
+        "urunAdi": "pad",
+        "miktar": "500",
+        "birim": "adet",
+        "birimFiyat": "13",
+        "aciklama": "moonchild sip7 için"
+      }
+    ],
+    "toplamTutar": 6500,
+    "kayitTarihi": "2025-08-03T21:04:42.977Z",
+    "id": "1754255082994",
+    "olusturmaTarihi": "04.08.2025 00:04:42"
+  },
+  {
+    "siparisNo": "34535",
+    "tedarikci": "Kumas Ltd.",
+    "siparisTarihi": "2025-08-03",
+    "teslimTarihi": "2025-08-28",
+    "kategori": "Siparişler",
+    "durum": "Onaylandı",
+    "aciklama": "4234234",
+    "paraBirimi": "₺",
+    "urunler": [
+      {
+        "urunAdi": "pad",
+        "miktar": "50000",
+        "birim": "kg",
+        "birimFiyat": "13",
+        "aciklama": "moonchild sip7 için"
+      }
+    ],
+    "toplamTutar": 650000,
+    "kayitTarihi": "2025-08-03T21:05:56.078Z",
+    "id": "1754255156095",
+    "olusturmaTarihi": "04.08.2025 00:05:56",
+    "guncellemeTarihi": "04.08.2025 00:06:17"
+  }
+]

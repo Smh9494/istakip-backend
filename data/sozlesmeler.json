@@ -1,0 +1,64 @@
+[
+  {
+    "tedarikciId": "1754247416863",
+    "baslik": "iplik satın alım",
+    "tip": "tedarik",
+    "baslangicTarihi": "2025-08-03",
+    "bitisTarihi": "2026-07-03",
+    "degerTL": "",
+    "degerEUR": "10000",
+    "paraBirimi": "EUR",
+    "odemeVadesi": "60",
+    "yenilemeKosullari": "yıllık yenilenecek",
+    "ozelSartlar": "dolar üzerinden",
+    "iletisimKisi": "",
+    "notlar": [
+      {
+        "tarih": "03.08.2025 23:59:30",
+        "not": "Durum aktif olarak güncellendi",
+        "islem": "Durum: aktif"
+      }
+    ],
+    "id": "1754254758586",
+    "olusturmaTarihi": "03.08.2025 23:59:18",
+    "durum": "aktif",
+    "guncellemeTarihi": "03.08.2025 23:59:30",
+    "aktivasyonTarihi": "03.08.2025 23:59:30"
+  },
+  {
+    "tedarikciId": "1754253796611",
+    "baslik": "4234",
+    "tip": "tedarik",
+    "baslangicTarihi": "2025-08-04",
+    "bitisTarihi": "2025-08-05",
+    "degerTL": "",
+    "degerEUR": "234234324",
+    "paraBirimi": "EUR",
+    "odemeVadesi": "2",
+    "yenilemeKosullari": "4234",
+    "ozelSartlar": "",
+    "iletisimKisi": "",
+    "id": "1754254831097",
+    "olusturmaTarihi": "04.08.2025 00:00:31",
+    "durum": "yenileme_gerekli",
+    "guncellemeTarihi": "04.08.2025 00:16:17",
+    "aktivasyonTarihi": "04.08.2025 00:00:36",
+    "olusturanKullanici": "admin",
+    "guncelleyenKullanici": "admin",
+    "guncellemNotu": "Sözleşme admin tarafından güncellendi",
+    "gecmis": [
+      {
+        "tarih": "04.08.2025 00:10:19",
+        "kullanici": "admin",
+        "islem": "Sözleşme güncellendi",
+        "aciklama": "Sözleşme admin tarafından güncellendi"
+      },
+      {
+        "tarih": "04.08.2025 00:16:17",
+        "kullanici": "admin",
+        "islem": "Durum güncellendi: yenileme_gerekli",
+        "aciklama": "Durum yenileme_gerekli olarak güncellendi"
+      }
+    ]
+  }
+]

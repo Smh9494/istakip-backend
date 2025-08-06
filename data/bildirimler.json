@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "title": "Hoş geldiniz!",
+    "message": "İş Takip Sistemi'ne hoş geldiniz. Sistem başarıyla yüklendi.",
+    "type": "success",
+    "kullanici": "all",
+    "createdAt": "2025-01-26T12:00:00.000Z",
+    "read": true,
+    "readAt": "2025-08-05T10:14:07.348Z"
+  },
+  {
+    "id": "2",
+    "title": "Sistem Güncellemesi",
+    "message": "NotificationSystem başarıyla entegre edildi.",
+    "type": "info",
+    "kullanici": "admin",
+    "createdAt": "2025-01-26T12:05:00.000Z",
+    "read": true,
+    "readAt": "2025-08-05T10:14:07.720Z"
+  },
+  {
+    "id": "3",
+    "title": "Yeni Özellik",
+    "message": "Enhanced Dashboard sistemi aktif edildi.",
+    "type": "success",
+    "kullanici": "all",
+    "createdAt": "2025-01-26T12:10:00.000Z",
+    "read": true,
+    "readAt": "2025-08-05T10:34:32.004Z"
+  }
+]

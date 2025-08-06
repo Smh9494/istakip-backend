@@ -1,0 +1,22 @@
+[
+  {
+    "kategori": "Test",
+    "minTutar": "1000",
+    "maxTutar": "5000",
+    "onaylayanRol": "y�netici",
+    "zorunluGerekceli": false,
+    "aktif": true,
+    "id": "1754253179205",
+    "olusturmaTarihi": "03.08.2025 23:32:59"
+  },
+  {
+    "kategori": "İplik",
+    "minTutar": "1000",
+    "maxTutar": "9999999",
+    "onaylayanRol": "yönetici",
+    "zorunluGerekceli": true,
+    "aktif": true,
+    "id": "1754253365910",
+    "olusturmaTarihi": "03.08.2025 23:36:05"
+  }
+]

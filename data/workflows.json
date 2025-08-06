@@ -1,0 +1,72 @@
+[
+  {
+    "id": "workflow_1",
+    "name": "Numune Onay Süreci",
+    "description": "Numune talebi onay akışı",
+    "category": "numune",
+    "status": "active",
+    "createdAt": "2025-01-26T12:00:00.000Z",
+    "steps": [
+      {
+        "id": 1,
+        "name": "Talep Kontrolü",
+        "assignee": "arge",
+        "action": "review",
+        "timeLimit": 24,
+        "required": true
+      },
+      {
+        "id": 2,
+        "name": "Maliyet Onayı",
+        "assignee": "yönetici",
+        "action": "approve",
+        "timeLimit": 48,
+        "required": true,
+        "condition": "cost > 100"
+      },
+      {
+        "id": 3,
+        "name": "Üretim Planlaması",
+        "assignee": "planlama",
+        "action": "schedule",
+        "timeLimit": 72,
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "workflow_2",
+    "name": "Satın Alma Onay Süreci",
+    "description": "Satın alma talebi onay akışı",
+    "category": "satinalma",
+    "status": "active",
+    "createdAt": "2025-01-26T12:05:00.000Z",
+    "steps": [
+      {
+        "id": 1,
+        "name": "Bütçe Kontrolü",
+        "assignee": "muhasebe",
+        "action": "budget_check",
+        "timeLimit": 12,
+        "required": true
+      },
+      {
+        "id": 2,
+        "name": "Yönetici Onayı",
+        "assignee": "yönetici",
+        "action": "approve",
+        "timeLimit": 24,
+        "required": true,
+        "condition": "amount > 1000"
+      },
+      {
+        "id": 3,
+        "name": "Tedarikçi Seçimi",
+        "assignee": "satinalma",
+        "action": "select_supplier",
+        "timeLimit": 48,
+        "required": true
+      }
+    ]
+  }
+]

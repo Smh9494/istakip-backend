@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1754299244590",
+    "musteri": "NEBBIA",
+    "urunAciklama": "Seamless V2 -Tayt",
+    "artNo": "16799",
+    "costArtNo": "496",
+    "ucretMiktari": 10,
+    "paraBirimi": "€",
+    "odemeDurumu": "Ödendi",
+    "numuneId": "0",
+    "olusturmaTarihi": "04.08.2025 12:20:44",
+    "notlar": "Numune güncelleme ile ücret değiştirildi. Numune ID: 0. Güncelleme: 05.08.2025 23:21:30",
+    "odemeYontemi": "",
+    "faturaBilgileri": "",
+    "sonGuncellemeTarihi": "05.08.2025 23:21:30",
+    "guncellemeTarihi": "05.08.2025 23:22:14",
+    "odemeTarihi": "05.08.2025"
+  },
+  {
+    "id": "1754405083136",
+    "musteri": "NEBBIA",
+    "urunAciklama": "Seamless v2- String Body",
+    "artNo": "17066 - 17067",
+    "costArtNo": "502",
+    "ucretMiktari": 5,
+    "paraBirimi": "€",
+    "odemeDurumu": "Ödendi",
+    "numuneId": "1",
+    "olusturmaTarihi": "05.08.2025 17:44:43",
+    "notlar": "Numune güncelleme ile ücret değiştirildi. Numune ID: 1. Güncelleme: 05.08.2025 17:45:29",
+    "odemeYontemi": "",
+    "faturaBilgileri": "",
+    "sonGuncellemeTarihi": "05.08.2025 17:45:29",
+    "guncellemeTarihi": "05.08.2025 23:22:24",
+    "odemeTarihi": "05.08.2025"
+  }
+]

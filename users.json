@@ -1,0 +1,17 @@
+[
+  {
+    "username": "semih",
+    "password": "1234",
+    "role": "planlama"
+  },
+  {
+    "username": "admin",
+    "password": "admin123",
+    "role": "yönetici"
+  },
+  {
+    "username": "muhasebe",
+    "password": "hesap",
+    "role": "muhasebe"
+  }
+]

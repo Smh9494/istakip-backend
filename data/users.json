@@ -1,0 +1,87 @@
+[
+  {
+    "id": "user_1",
+    "username": "admin",
+    "email": "admin@company.com",
+    "password": "admin123",
+    "firstName": "Sistem",
+    "lastName": "Yöneticisi",
+    "groups": [
+      "Yönetici"
+    ],
+    "status": "active",
+    "createdAt": "2025-01-26T10:00:00.000Z",
+    "lastLogin": "2025-08-05T13:51:16.011Z"
+  },
+  {
+    "id": "user_2",
+    "username": "arge_user",
+    "email": "arge@company.com",
+    "password": "arge123",
+    "firstName": "AR-GE",
+    "lastName": "Uzmanı",
+    "groups": [
+      "AR-GE"
+    ],
+    "status": "active",
+    "createdAt": "2025-01-26T10:15:00.000Z",
+    "lastLogin": "2025-08-06T10:26:52.523Z"
+  },
+  {
+    "id": "user_3",
+    "username": "muhasebe_user",
+    "email": "muhasebe@company.com",
+    "password": "muhasebe123",
+    "firstName": "Muhasebe",
+    "lastName": "Uzmanı",
+    "groups": [
+      "Muhasebe"
+    ],
+    "status": "active",
+    "createdAt": "2025-01-26T10:20:00.000Z",
+    "lastLogin": "2025-08-04T13:57:27.422Z"
+  },
+  {
+    "id": "user_4",
+    "username": "dikim_user",
+    "email": "dikim@company.com",
+    "password": "dikim123",
+    "firstName": "Dikim",
+    "lastName": "Sorumlusu",
+    "groups": [
+      "Dikim"
+    ],
+    "status": "active",
+    "createdAt": "2025-01-26T10:25:00.000Z",
+    "lastLogin": "2025-01-26T09:15:00.000Z"
+  },
+  {
+    "id": "user_5",
+    "username": "planlama_user",
+    "email": "planlama@company.com",
+    "password": "planlama123",
+    "firstName": "Planlama",
+    "lastName": "Uzmanı",
+    "groups": [
+      "Planlama"
+    ],
+    "status": "active",
+    "createdAt": "2025-01-26T10:30:00.000Z",
+    "lastLogin": "2025-08-04T14:01:14.687Z"
+  },
+  {
+    "id": "user_6",
+    "username": "proje_user",
+    "email": "proje@company.com",
+    "password": "proje123",
+    "firstName": "Proje",
+    "lastName": "Yöneticisi",
+    "groups": [
+      "Proje",
+      "Planlama"
+    ],
+    "status": "active",
+    "createdAt": "2025-01-26T10:35:00.000Z",
+    "lastLogin": "2025-01-26T08:30:00.000Z"
+  }
+]

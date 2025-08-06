@@ -1,0 +1,51 @@
+[
+  {
+    "id": "active_1",
+    "workflowId": "workflow_1",
+    "name": "Numune Onay Süreci",
+    "currentStep": 0,
+    "status": "running",
+    "startedAt": "2025-01-26T12:10:00.000Z",
+    "triggerData": {
+      "referenceId": "NUM_001",
+      "referenceType": "numune",
+      "customerName": "ABC Tekstil"
+    },
+    "steps": [
+      {
+        "id": 1,
+        "name": "Talep Kontrolü",
+        "assignee": "arge",
+        "action": "review",
+        "timeLimit": 24,
+        "required": true,
+        "status": "active",
+        "assignedAt": "2025-01-26T12:10:00.000Z",
+        "completedAt": null
+      },
+      {
+        "id": 2,
+        "name": "Maliyet Onayı",
+        "assignee": "yönetici",
+        "action": "approve",
+        "timeLimit": 48,
+        "required": true,
+        "condition": "cost > 100",
+        "status": "pending",
+        "assignedAt": null,
+        "completedAt": null
+      },
+      {
+        "id": 3,
+        "name": "Üretim Planlaması",
+        "assignee": "planlama",
+        "action": "schedule",
+        "timeLimit": 72,
+        "required": true,
+        "status": "pending",
+        "assignedAt": null,
+        "completedAt": null
+      }
+    ]
+  }
+]

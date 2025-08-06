@@ -1,0 +1,76 @@
+[
+  {
+    "firmaAdi": "NEBBIA",
+    "firmaYetkilisi": "BATUHAN-PETER-STANKA",
+    "email": "123123@xn--gmail-bgd.com",
+    "adres": "wefwefwefewfew77",
+    "ulke": "Slovakya",
+    "durum": "Aktif",
+    "kaynak": "Website",
+    "deger": 0,
+    "kayitTarihi": "31.07.2025 23:15:59",
+    "id": 1753992959117
+  },
+  {
+    "firmaAdi": "MAI",
+    "firmaYetkilisi": "davut bey",
+    "email": "deee@gmail.com",
+    "adres": "MERTER / İSTANBUL",
+    "ulke": "Türkiye",
+    "durum": "Potansiyel",
+    "kaynak": "Website",
+    "deger": 0,
+    "kayitTarihi": "01.08.2025 11:37:23",
+    "id": 1754037443415,
+    "paraBirimi": "₺"
+  },
+  {
+    "firmaAdi": "GriMelanj",
+    "firmaYetkilisi": "Halil",
+    "email": "ddddd@gri.com",
+    "adres": "istanbul / Eyüpsultan",
+    "ulke": "Türkiye",
+    "durum": "Potansiyel",
+    "kaynak": "Website",
+    "paraBirimi": "€",
+    "deger": 16251,
+    "id": "1754077928808",
+    "kayitTarihi": "01.08.2025 22:52:08"
+  },
+  {
+    "firmaAdi": "123",
+    "firmaYetkilisi": "123",
+    "email": "123",
+    "adres": "",
+    "ulke": "Türkiye",
+    "durum": "Potansiyel",
+    "kaynak": "Website",
+    "paraBirimi": "$",
+    "id": "1754389883980",
+    "kayitTarihi": "05.08.2025 13:31:23"
+  },
+  {
+    "firmaAdi": "CUERA",
+    "firmaYetkilisi": "Tijen",
+    "email": ".. @ggg.com",
+    "adres": "",
+    "ulke": "Türkiye",
+    "durum": "Potansiyel",
+    "kaynak": "Website",
+    "paraBirimi": "€",
+    "id": "1754405338247",
+    "kayitTarihi": "05.08.2025 17:48:58"
+  },
+  {
+    "firmaAdi": "MESYOGA",
+    "firmaYetkilisi": "HASAN",
+    "email": "",
+    "adres": "",
+    "ulke": "Türkiye",
+    "durum": "Potansiyel",
+    "kaynak": "Website",
+    "paraBirimi": "€",
+    "id": "1754406887443",
+    "kayitTarihi": "05.08.2025 18:14:47"
+  }
+]
