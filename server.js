@@ -53,12 +53,40 @@ const upload = multer({
 
 // 🔧 Middleware'ler önce gelmeli!
 const corsOptions = {
-  origin: IS_PRODUCTION 
-    ? ['https://istakip.elsatekstil.com.tr', 'https://elsatekstil.com.tr']
-    : ['http://localhost:3000', 'http://localhost:3001'],
+  origin: function (origin, callback) {
+    // Railway'de environment variable CORS_ORIGIN=* varsa tüm originlere izin ver
+    if (process.env.CORS_ORIGIN === '*') {
+      callback(null, true);
+      return;
+    }
+    
+    // Production'da belirli domainler
+    if (IS_PRODUCTION) {
+      const allowedOrigins = [
+        'https://istakip.elsatekstil.com.tr', 
+        'https://elsatekstil.com.tr',
+        'https://www.istakip.elsatekstil.com.tr',
+        'https://www.elsatekstil.com.tr'
+      ];
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        console.log('🚫 CORS blocked origin:', origin);
+        callback(null, true); // Mobil cihazlar için daha esnek
+      }
+    } else {
+      // Development'da localhost'lara izin ver
+      const devOrigins = ['http://localhost:3000', 'http://localhost:3001'];
+      if (!origin || devOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(null, false);
+      }
+    }
+  },
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With']
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Accept', 'Origin']
 };
 
 app.use(cors(corsOptions));
